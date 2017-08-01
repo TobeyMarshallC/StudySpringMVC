@@ -1,11 +1,15 @@
 package com.springmvc.core.handlers;
 
 import com.springmvc.core.service.MyServiceImpl;
+import com.sun.org.apache.xpath.internal.operations.Mod;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.servlet.view.json.MappingJackson2JsonView;
 
 import javax.annotation.Resource;
+import java.util.HashMap;
 import java.util.Map;
 
 @Controller
@@ -24,5 +28,26 @@ public class MyHandlers {
 		ModelAndView mav = new ModelAndView("success");
 		mav.addObject("nowdate",resultMap.get("Now_date"));
 		return  mav;
+	}
+
+	@RequestMapping("/toAddUser")
+	public ModelAndView toAddUser(){
+		ModelAndView mav = new ModelAndView("add_user");
+
+
+		return mav;
+	}
+
+	@ResponseBody
+	@RequestMapping("/saveUserInfo")
+	public String saveUserInfo(){
+
+		try {
+
+		}catch (Exception ex){
+			ex.printStackTrace();
+		}
+
+		return "done";
 	}
 }
