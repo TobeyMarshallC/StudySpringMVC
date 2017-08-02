@@ -4,9 +4,11 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Insert title here</title>
+<title>StudySpringMVC</title>
 </head>
 <body>
-	<a href="helloworld">Click Me</a>
+	<a href="my/helloworld">Click Me</a>
+    <br/>
+    <a href="my/toAddUser">Add User</a>
 </body>
 </html>
