@@ -7,7 +7,7 @@ public class FactoryTest {
 
 
     public static void main(String[] args) {
-        Sender smsSender = SendFactory.produceSmsSender();
+        Sender smsSender = SendFactory.produceMailSender();
         smsSender.Send();
     }
 
