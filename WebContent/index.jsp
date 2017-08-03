@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<a href="helloworld">Click Me</a>
+	<a href="my/helloworld">Click Me</a>
 </body>
 </html>
