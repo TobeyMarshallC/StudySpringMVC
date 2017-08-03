@@ -8,6 +8,6 @@
 </head>
 <body>
  <h4>Success Page</h4>
-
+ <h4>now date:${nowdate}</h4>
 </body>
 </html>
