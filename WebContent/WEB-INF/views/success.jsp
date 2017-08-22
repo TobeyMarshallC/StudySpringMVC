@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>StudySpringMVC</title>
+<title>Insert title here</title>
 </head>
 <body>
  <h4>Success Page</h4>
- <h4>${nowdate}</h4>
+ <h4>now date:${nowdate}</h4>
 </body>
 </html>
