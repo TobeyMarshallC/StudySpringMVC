@@ -27,7 +27,6 @@ public class RedisTool {
         String key = ip + ":" + port;
         JedisPool pool = null;
         if (!maps.containsKey(key)) {
-            JedisPoolConfig config = new JedisPoolConfig();
 
             return null;
         }

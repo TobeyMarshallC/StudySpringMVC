@@ -14,7 +14,7 @@ public class TestString {
         System.out.println(str.hashCode());
         System.out.println(str2.hashCode());
 
-
+        System.out.println(str.charAt('c'));
     }
 
 }
